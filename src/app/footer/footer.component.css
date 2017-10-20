@@ -1,0 +1,15 @@
+p{
+    font-size: 12px;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    /* min-height: 36px;
+    height: 6%!important; */
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding-top: 9px;
+    top:100%;
+}

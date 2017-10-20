@@ -1,0 +1,22 @@
+<div class="table-responsive table-container">
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Job Board</th>
+          <th>Online Apply</th>
+          <th>Email Apply</th>
+          <th>Edit</th>
+          <th>Delete</th>          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let jobBoard of jobBoards">
+          <td>{{ jobBoard.name}}</td>
+          <td>{{ jobBoard.isOnlineApply}}</td>
+          <td>{{ jobBoard.isEmailApply}}</td>
+          <td><button class="btn-info btn-sm action-btn"><i class="fa fa-pencil-square-o" title="edit" ></i></button></td>
+          <td><button class="btn-danger btn-sm action-btn"><i class="fa fa-trash-o" title="delete"></i></button> </td>                
+        </tr>
+      </tbody>
+    </table>
+</div>
